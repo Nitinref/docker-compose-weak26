@@ -12,7 +12,6 @@ app.get('/' ,async (req,res) =>{
         data
     })
 })
-
 app.post("/" , async (req,res)=>{
 
      await prismaClient.user.create({
